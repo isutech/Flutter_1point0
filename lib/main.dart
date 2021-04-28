@@ -10,9 +10,9 @@ class HelloWorldApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.black12,
+          backgroundColor: Colors.black,
           title: Text(
-            'Hello world',
+            'portfolio',
             textDirection: TextDirection.ltr,
           ),
           centerTitle: true,
@@ -24,122 +24,37 @@ class HelloWorldApp extends StatelessWidget {
                 child: Container(
                   height: 200,
                   width: 300,
-                  decoration: BoxDecoration(
-                    color: Colors.black26,
-                  ),
-                  alignment: Alignment.center,
+                  alignment: Alignment.topCenter,
                   margin: EdgeInsets.all(20),
-                  child: Text(
-                    'Hello world',
-                    textDirection: TextDirection.ltr,
-                    style: TextStyle(
-                      fontSize: 20,
-                      color: Colors.white,
-                      fontWeight: FontWeight.bold,
+                  child: CircleAvatar(
+                    radius: 90,
+                    backgroundColor: Colors.blueGrey,
+                    child: Text(
+                      'IS',
+                      style: TextStyle(
+                        fontSize: 50,
+                        color: Colors.white,
+                        fontWeight: FontWeight.bold,
+                      ),
                     ),
                   ),
-                ),
-              ),
-              Expanded(
-                child: Row(
-                  children: [
-                    Expanded(
-                      child: Container(
-                        height: 200,
-                        width: 300,
-                        decoration: BoxDecoration(
-                          color: Colors.black26,
-                        ),
-                        alignment: Alignment.center,
-                        margin: EdgeInsets.all(20),
-                        child: Text(
-                          'Hello world',
-                          textDirection: TextDirection.ltr,
-                          style: TextStyle(
-                            fontSize: 20,
-                            color: Colors.white,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                      ),
-                    ),
-                    Expanded(
-                      child: Container(
-                        height: 200,
-                        width: 300,
-                        decoration: BoxDecoration(
-                          color: Colors.black26,
-                        ),
-                        alignment: Alignment.center,
-                        margin: EdgeInsets.all(20),
-                        child: Text(
-                          'Hello world',
-                          textDirection: TextDirection.ltr,
-                          style: TextStyle(
-                            fontSize: 20,
-                            color: Colors.white,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                      ),
-                    ),
-                    Expanded(
-                      child: Container(
-                        height: 200,
-                        width: 300,
-                        decoration: BoxDecoration(
-                          color: Colors.black26,
-                        ),
-                        alignment: Alignment.center,
-                        margin: EdgeInsets.all(20),
-                        child: Text(
-                          'Hello world',
-                          textDirection: TextDirection.ltr,
-                          style: TextStyle(
-                            fontSize: 20,
-                            color: Colors.white,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                      ),
-                    ),
-                    Expanded(
-                      child: Container(
-                        height: 200,
-                        width: 300,
-                        decoration: BoxDecoration(
-                          color: Colors.black26,
-                        ),
-                        alignment: Alignment.center,
-                        margin: EdgeInsets.all(20),
-                        child: Text(
-                          'Hello world',
-                          textDirection: TextDirection.ltr,
-                          style: TextStyle(
-                            fontSize: 20,
-                            color: Colors.white,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                      ),
-                    ),
-                  ],
                 ),
               ),
               Expanded(
                 child: Container(
                   height: 200,
-                  width: 300,
+                  width: 400,
+                  padding: EdgeInsets.all(46.0),
                   decoration: BoxDecoration(
-                    color: Colors.black26,
+                    color: Colors.black,
                   ),
                   alignment: Alignment.center,
                   margin: EdgeInsets.all(20),
                   child: Text(
-                    'Hello world',
+                    'Hi the my name is Ibrahim',
                     textDirection: TextDirection.ltr,
                     style: TextStyle(
-                      fontSize: 20,
+                      fontSize: 30,
                       color: Colors.white,
                       fontWeight: FontWeight.bold,
                     ),
@@ -149,19 +64,19 @@ class HelloWorldApp extends StatelessWidget {
               Expanded(
                 child: Container(
                   height: 200,
-                  width: 300,
+                  width: 400,
                   decoration: BoxDecoration(
-                    color: Colors.black26,
+                    color: Colors.black,
                   ),
                   alignment: Alignment.center,
-                  margin: EdgeInsets.all(20),
+                  padding: EdgeInsets.all(17),
                   child: Text(
-                    'Hello world',
+                    'I am a flutter beginner and hope to be an expert at google ',
                     textDirection: TextDirection.ltr,
                     style: TextStyle(
-                      fontSize: 20,
+                      fontSize: 19,
                       color: Colors.white,
-                      fontWeight: FontWeight.bold,
+                      fontWeight: FontWeight.normal,
                     ),
                   ),
                 ),
@@ -169,6 +84,7 @@ class HelloWorldApp extends StatelessWidget {
             ],
           ),
         ),
+        backgroundColor: Colors.black,
       ),
     );
   }
